@@ -44,6 +44,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     margin-top: 0px;
+    font-weight: bold;
 }
 
 h3{
@@ -57,6 +58,7 @@ p{
     font-size: 1.25rem; 
     width:90%;
     line-height: 2rem;
+    color:slategray;
 }
 /*ul{
     list-style: none;
@@ -73,7 +75,7 @@ p{
 .skills{
     display:grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
+   /* grid-template-rows: 1fr 1fr; */
 }
 .skills-r1-c1{
     grid-area: 1/1/2/2;
@@ -90,4 +92,28 @@ li{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25rem;
     line-height: 2rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 20,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 30;
+    color: rgb(125, 138, 151);
+    font-size: 100px !important;
+
+  }
+  footer{
+    width: 100%;
+  }
+
+  
+element.style {
+}
+.carousel-caption{
+    left :10% ; 
+    text-align: left;
+    width : 15rem;
+    padding-bottom: 6rem;
 }
